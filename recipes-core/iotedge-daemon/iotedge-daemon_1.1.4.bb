@@ -6,7 +6,6 @@ SRC_URI += "gitsm://github.com/azure/iotedge;protocol=http;branch=release/1.1;de
 SRCREV = "cbeb53cf8b5889718c4724936f6d13ef5ceaac2e"
 
 S = "${WORKDIR}/iotedge-${PV}/edgelet/iotedged"
-CARGO_SRC_DIR = "iotedged"
 
 SRC_URI += " \
     crate://crates.io/adler32/1.0.4 \
